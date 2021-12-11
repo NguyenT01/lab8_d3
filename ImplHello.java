@@ -1,14 +1,9 @@
 import java.rmi.RemoteException;
 
 public class ImplHello implements Hello {
-<<<<<<< HEAD
     private final int first = 1111;
     private final int fourth = 4444;
     private final int third = 3333;
-=======
-    
-    @Override
->>>>>>> parent of 5c719f7 (Update ImplHello.java)
     public void printMsg(String age) throws RemoteException {
         private final int second = 2222;
 
